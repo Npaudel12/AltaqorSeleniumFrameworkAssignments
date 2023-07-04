@@ -52,6 +52,7 @@ public class BrowserDriver {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("start-maximized");
 		options.addArguments("--remote-allow-origins=*");
+		System.out.println(" Chrome is Lunching Through Selenium Automation.");
 		return new ChromeDriver(options);
 		
 	}

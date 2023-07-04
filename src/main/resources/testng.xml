@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Java-selenium automation" verbose="1" >
+  <test name="WebAutomation" >
+    <classes>
+		 <class name ="com.lamdatest.test.RegisterPageTest"></class>
+       <class name="com.lamdatest.test.HeaderPageTest"></class>
+    </classes>
+  </test>
+ 
+ 
+</suite>
